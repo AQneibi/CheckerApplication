@@ -2,10 +2,9 @@
 
 const getLocation = () => {
 
-
   const success = (position) => {
     console.log(position);
-    //console.log(position.coords.longitude);
+    window.location.href = 'http://www.google.com/intl/en/privacy'; //Add dashboard page here
   }
   const error = () => {
     textContent = "Unable to retrieve location";
