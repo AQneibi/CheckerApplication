@@ -1,11 +1,49 @@
-.find-location {
+button {
   background-color: black;
   color:antiquewhite;
   cursor: pointer;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: block;
+  margin: auto;
 }
-.find-location:hover {
+
+.find-location {
+  text-align: center;
+}
+
+button:hover {
   background-color: #4d4b4b;
 }
-.find-location:active {
+
+button:active {
   background-color: #8d8282;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#submit-button {
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+  text-align: center;
+  font-size: 15px;
+  background-color: black;
+  color:rgb(255, 255, 255);
+
+  transition: font-size 0.2s ease;
+}
+
+#submit-button:hover {
+  background-color: #4d4b4b;
+}
+
+#submit-button:active {
+  background-color: #8d8282;
+  font-size: larger;
 }
